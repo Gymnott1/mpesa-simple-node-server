@@ -1,0 +1,163 @@
+[2025 - 11 - 30 T10: 57: 40.675 Z] POST / mpesa - webhook
+Headers: {
+    "host": "50f3adb8b7ab.ngrok-free.app",
+    "user-agent": "MPesaForwarder/1.0",
+    "content-length": "139",
+    "accept-encoding": "gzip",
+    "content-type": "application/json",
+    "x-forwarded-for": "102.0.6.134",
+    "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+    "x-forwarded-proto": "https"
+}
+Body: {
+        "raw_message": "nt you can transact within the day is 499,871.00. Earn interest daily on Ziidi MMF,Dial *334#",
+        "timestamp": "1764500258823"
+    }
+    [2025 - 11 - 30 T10: 57: 40.679 Z] === INCOMING REQUEST ===
+    Headers: {
+        "host": "50f3adb8b7ab.ngrok-free.app",
+        "user-agent": "MPesaForwarder/1.0",
+        "content-length": "139",
+        "accept-encoding": "gzip",
+        "content-type": "application/json",
+        "x-forwarded-for": "102.0.6.134",
+        "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+        "x-forwarded-proto": "https"
+    }
+Body: {
+    "raw_message": "nt you can transact within the day is 499,871.00. Earn interest daily on Ziidi MMF,Dial *334#",
+    "timestamp": "1764500258823"
+}
+Raw body: {
+    raw_message: 'nt you can transact within the day is 499,871.00. Earn interest daily on Ziidi MMF,Dial *334#',
+    timestamp: '1764500258823'
+}
+SMS fragment received(incomplete data) - ignoring[2025 - 11 - 30 T10: 57: 40.962 Z] POST / mpesa - webhook
+Headers: {
+    "host": "50f3adb8b7ab.ngrok-free.app",
+    "user-agent": "MPesaForwarder/1.0",
+    "content-length": "270",
+    "accept-encoding": "gzip",
+    "content-type": "application/json",
+    "x-forwarded-for": "102.0.6.134",
+    "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+    "x-forwarded-proto": "https"
+}
+Body: {
+        "raw_message": "TKUKFBK1QE Confirmed. Ksh2.00 sent to Linus  Wabwire 0705878544 on 30/11/25 at 1:57 PM. New M-PESA balance is Ksh310.14. Transaction cost, Ksh0.00.  Amou",
+        "timestamp": "1764500258817",
+        "amount": "2.00",
+        "phone": "0705878544",
+        "transaction_code": "TKUKFBK1QE"
+    }
+    [2025 - 11 - 30 T10: 57: 40.963 Z] === INCOMING REQUEST ===
+    Headers: {
+        "host": "50f3adb8b7ab.ngrok-free.app",
+        "user-agent": "MPesaForwarder/1.0",
+        "content-length": "270",
+        "accept-encoding": "gzip",
+        "content-type": "application/json",
+        "x-forwarded-for": "102.0.6.134",
+        "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+        "x-forwarded-proto": "https"
+    }
+Body: {
+    "raw_message": "TKUKFBK1QE Confirmed. Ksh2.00 sent to Linus  Wabwire 0705878544 on 30/11/25 at 1:57 PM. New M-PESA balance is Ksh310.14. Transaction cost, Ksh0.00.  Amou",
+    "timestamp": "1764500258817",
+    "amount": "2.00",
+    "phone": "0705878544",
+    "transaction_code": "TKUKFBK1QE"
+}
+Raw body: {
+    raw_message: 'TKUKFBK1QE Confirmed. Ksh2.00 sent to Linus  Wabwire 0705878544 on 30/11/25 at 1:57 PM. New M-PESA balance is Ksh310.14. Transaction cost, Ksh0.00.  Amou',
+    timestamp: '1764500258817',
+    amount: '2.00',
+    phone: '0705878544',
+    transaction_code: 'TKUKFBK1QE'
+}💰
+Payment from: unknown(0705878544) - Ksh2 .00 - TKUKFBK1QE
+Processing payment: TKUKFBK1QE[2025 - 11 - 30 T10: 57: 40.963 Z] === OUTGOING RESPONSE ===
+    Response: {
+        "status": "success",
+        "payment_id": 1764500260963
+    }
+    [2025 - 11 - 30 T10: 57: 44.138 Z] POST / mpesa - webhook
+Headers: {
+    "host": "50f3adb8b7ab.ngrok-free.app",
+    "user-agent": "MPesaForwarder/1.0",
+    "content-length": "70",
+    "accept-encoding": "gzip",
+    "content-type": "application/json",
+    "x-forwarded-for": "102.0.6.134",
+    "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+    "x-forwarded-proto": "https"
+}
+Body: {
+        "raw_message": " on Ziidi MMF,Dial *334#",
+        "timestamp": "1764500262540"
+    }
+    [2025 - 11 - 30 T10: 57: 44.138 Z] === INCOMING REQUEST ===
+    Headers: {
+        "host": "50f3adb8b7ab.ngrok-free.app",
+        "user-agent": "MPesaForwarder/1.0",
+        "content-length": "70",
+        "accept-encoding": "gzip",
+        "content-type": "application/json",
+        "x-forwarded-for": "102.0.6.134",
+        "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+        "x-forwarded-proto": "https"
+    }
+Body: {
+    "raw_message": " on Ziidi MMF,Dial *334#",
+    "timestamp": "1764500262540"
+}
+Raw body: { raw_message: ' on Ziidi MMF,Dial *334#', timestamp: '1764500262540' }
+SMS fragment received(incomplete data) - ignoring[2025 - 11 - 30 T10: 57: 44.140 Z] POST / mpesa - webhook
+Headers: {
+    "host": "50f3adb8b7ab.ngrok-free.app",
+    "user-agent": "MPesaForwarder/1.0",
+    "content-length": "270",
+    "accept-encoding": "gzip",
+    "content-type": "application/json",
+    "x-forwarded-for": "102.0.6.134",
+    "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+    "x-forwarded-proto": "https"
+}
+Body: {
+        "raw_message": "TKUKFBK1QE Confirmed.You have received Ksh2.00 from LINUS  WABWIRE 0725828589 on 30/11/25 at 1:57 PM  New M-PESA balance is Ksh77.61. Earn interest daily",
+        "timestamp": "1764500262534",
+        "amount": "2.00",
+        "phone": "0725828589",
+        "transaction_code": "TKUKFBK1QE"
+    }
+    [2025 - 11 - 30 T10: 57: 44.140 Z] === INCOMING REQUEST ===
+    Headers: {
+        "host": "50f3adb8b7ab.ngrok-free.app",
+        "user-agent": "MPesaForwarder/1.0",
+        "content-length": "270",
+        "accept-encoding": "gzip",
+        "content-type": "application/json",
+        "x-forwarded-for": "102.0.6.134",
+        "x-forwarded-host": "50f3adb8b7ab.ngrok-free.app",
+        "x-forwarded-proto": "https"
+    }
+Body: {
+    "raw_message": "TKUKFBK1QE Confirmed.You have received Ksh2.00 from LINUS  WABWIRE 0725828589 on 30/11/25 at 1:57 PM  New M-PESA balance is Ksh77.61. Earn interest daily",
+    "timestamp": "1764500262534",
+    "amount": "2.00",
+    "phone": "0725828589",
+    "transaction_code": "TKUKFBK1QE"
+}
+Raw body: {
+    raw_message: 'TKUKFBK1QE Confirmed.You have received Ksh2.00 from LINUS  WABWIRE 0725828589 on 30/11/25 at 1:57 PM  New M-PESA balance is Ksh77.61. Earn interest daily',
+    timestamp: '1764500262534',
+    amount: '2.00',
+    phone: '0725828589',
+    transaction_code: 'TKUKFBK1QE'
+}💰
+Payment from: LINUS WABWIRE(0725828589) - Ksh2 .00 - TKUKFBK1QE
+Processing payment: TKUKFBK1QE[2025 - 11 - 30 T10: 57: 44.140 Z] === OUTGOING RESPONSE ===
+    Response: {
+        "status": "success",
+        "payment_id": 1764500264140
+    }
